@@ -17,3 +17,7 @@
 
   
 
+jsDelivr
+GitHub Pages
+CodeSandbox
+unpkg
