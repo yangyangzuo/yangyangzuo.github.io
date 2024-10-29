@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script type="module" crossorigin src="./assets/index-7e7890e9.js"></script>
+	</head>
+
+	<style scoped>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			/* safari浏览器,内容边缘空白问题 */
+			overflow: hidden;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		.app {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		canvas {
+			display: block;
+		}
+
+		.labelContainer {
+			color: red;
+		}
+
+		.test-layer {
+			transform: translate(0, -70%);
+		}
+
+		.box,
+		.test-layer {
+			box-sizing: border-box;
+		}
+
+		.box {
+			height: 100%;
+			width: 200px;
+			margin: 0 auto;
+			color: #fff;
+			background-color: rgba(0, 127, 127, 0.447);
+			box-shadow: 0 0 12px rgba(0, 255, 255, 0.5);
+			border: 1px solid #88ff69;
+			padding: 10px 10px;
+		}
+
+		.test-left {
+			width: 60px;
+			float: left;
+			height: 60px;
+			text-align: center;
+			vertical-align: middle;
+		}
+
+		.test-right {
+			margin-left: 80px;
+			font-size: 20px;
+			line-height: 40px;
+		}
+
+		.test-con {
+			line-height: 30px;
+			padding: 10px 0;
+		}
+
+		.popup {
+			/* 692*838 */
+			width: 314px;
+			height: 380px;
+			color: #fff;
+			background: url(imgs/4.png) no-repeat;
+			background-size: 100%;
+			text-align: center;
+			transform: translate(0, -55%);
+		}
+
+		.popup img {
+			width: 278px;
+			height: 107px;
+			margin: 13px 0;
+			border-radius: 10px;
+		}
+
+		.popup .top {
+			position: relative;
+			z-index: 100;
+			height: 33px;
+			border-radius: 25px 25px 0 0;
+			text-align: center;
+			line-height: 33px;
+			font-size: 20px;
+			/* background-image: linear-gradient(to top, #2a55abfa, #2a55ab54); */
+		}
+
+		.popup .center {
+			height: 210px;
+			/* background-color: rgba(42, 85, 171, 0.3); */
+			/* border: 1px solid #2967b0; */
+			border-top: none;
+			border-bottom: none;
+		}
+
+		.popup .center div {
+			text-align: left;
+			font-size: 16px;
+			margin-bottom: 14px;
+			width: 300px;
+			padding-left: 32px;
+		}
+
+		.popup .center div::before {
+			content: '';
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			background-image: linear-gradient(to top, #ffffff, #2a55abfa);
+			border-radius: 50%;
+			margin-right: 8px;
+		}
+
+		.popup .center i {
+			font-style: normal;
+			margin-right: 10px;
+			color: #ccc;
+		}
+
+		.popup .center span {
+			/* color: #3a8fca; */
+			font-weight: 400;
+		}
+	</style>
+
+	<body>
+
+	</body>
+</html>
